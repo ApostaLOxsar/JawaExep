@@ -22,8 +22,8 @@ public class JobWithFile {
 
         try {
             FileWriter peopleFile = new FileWriter(fileRoad, true);
-            peopleFile.append( "Last name: " + lastName + "\nFirst name: " + firstName + "\nMiddle name: " + middleName
-            + "\nDate of brith: " + dateOfBrith + "\nPhone number: " + phoneNumber + "\nGender: " + gender + "\n\n");
+            peopleFile.append( "Last name: " + lastName + " First name: " + firstName + " Middle name: " + middleName
+            + " Date of brith: " + dateOfBrith + " Phone number: " + phoneNumber + " Gender: " + gender + "\n");
             peopleFile.close();
         } catch (IOException e) {
             System.out.println(e.getMessage());;
