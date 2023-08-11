@@ -26,7 +26,7 @@ public class JobWithFile {
             + "\nDate of brith: " + dateOfBrith + "\nPhone number: " + phoneNumber + "\nGender: " + gender + "\n\n");
             peopleFile.close();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());;
         }
     }
 }
